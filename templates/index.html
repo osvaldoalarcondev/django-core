@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DjangoCore Chatbot</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    {% csrf_token %}
+</head>
+<body>
+    <div class="header">
+        <div class="logo">DjangoCorer</div>
+        <div class="agent-title">Agent</div>
+        <div class="chat-container">
+            <div id="chat-box"></div>
+            <input type="text" id="user-input" placeholder="Type your question...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+        <script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>

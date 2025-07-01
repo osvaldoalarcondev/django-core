@@ -1,0 +1,29 @@
+django==4.2.7
+djangorestframework==3.14.0
+sentence-transformers==2.7.0
+huggingface_hub==0.9.1
+faiss-cpu==1.8.0
+flask==2.3.3
+requests==2.31.0
+numpy==1.26.4
+torch==2.3.0
+
+
+// pytorch
+pip install sentence-transformers==2.7.0 --no-cache-dir
+pip install django==4.2.7
+pip install faiss-cpu==1.8.0
+pip install flask==2.3.3
+pip install djangorestframework==3.14.0
+pip install numpy==1.26.4
+
+// tensorflow
+django==4.2.7
+djangorestframework==3.14.0
+sentence-transformers==2.7.0
+faiss-cpu==1.8.0
+flask==2.3.3
+requests==2.31.0
+numpy==1.26.4
+tensorflow==2.17.0
+pip install faiss-cpu sentence-transformers
